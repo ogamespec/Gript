@@ -1,5 +1,7 @@
 # Gript
 
+## Overview
+
 Oriented graph scripting engine.
 
 The idea is as follows:
@@ -15,5 +17,7 @@ The idea is as follows:
 - Обход графа производит виртуальная машина. На основе инструкций из узлов она выполняет определенные действия в контексте на котором исполняется
 - Инструкции определяются реализацией (что разработчик захочет, то и добавит)
 - Есть возможность импорта/экспорта в формат GraphML yEd
+
+## Gript in a Nutshell
 
 ![Gript_in_anutshell](Gript_in_anutshell.png)
