@@ -14,9 +14,6 @@ public:
 
 	std::list<GriptNode*> from;			// Input nodes
 	std::list<GriptNode*> to;		// Output nodes
-
-	GriptNode()	{ }
-	virtual ~GriptNode() { }
 };
 
 class Gript
