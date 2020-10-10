@@ -1,0 +1,31 @@
+{
+  "info": 
+  {
+    "description": "Graph Script Demo"
+  },
+
+  "nodes":
+  {
+    "Begin":
+    {
+      "notes": "This is beginning of the graph.\ntext section may be missing.",
+    },
+
+    "Block1":
+    {
+      "notes": "Some instruction",
+      "text": "print \"Hello, world!\""
+    },
+
+    "End":
+    {
+      "text": "exit"
+    }
+  },
+
+  "edges": [ 
+    ["Begin", "Block1"], 
+    ["Block1", "End"]
+  ]
+
+}
